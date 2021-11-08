@@ -1,0 +1,36 @@
+Kernel build
+
+1. Package 설치
+
+- Cross Compile
+
+[$]
+sudo apt-get install gcc-arm-linux-gnueabihf
+
+- Tool
+
+[$]
+dpkg --add-architecture i386
+sudo apt-get install flex bison build-essential
+sudo apt-get install libncurses5-dev
+sudo apt-get install libssl-dev
+
+2. SD Card Mount
+
+[$]
+mkdir mnt/fat32
+mkdir mnt/ext4
+
+[partition]
+lsblk
+sudo mount /dev/(sdb1) /mnt/fat32/
+sudo mount /dev/(sdb2) /mnt/ext4/
+sync
+umount /mnt/fat32/
+umount/mnt/ext4/
+
+* kenerl cross compile
+https://webnautes.tistory.com/547
+
+* kernel module make
+https://webnautes.tistory.com/555

@@ -1,0 +1,1 @@
+cmd_/home/test/fpga_example/fpga_step_motor/fpga_step_motor_driver.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/test/fpga_example/fpga_step_motor/fpga_step_motor_driver.ko /home/test/fpga_example/fpga_step_motor/fpga_step_motor_driver.o /home/test/fpga_example/fpga_step_motor/fpga_step_motor_driver.mod.o ;  true

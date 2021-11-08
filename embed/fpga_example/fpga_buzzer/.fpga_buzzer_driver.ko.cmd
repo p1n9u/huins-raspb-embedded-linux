@@ -1,0 +1,1 @@
+cmd_/home/test/fpga_example/fpga_buzzer/fpga_buzzer_driver.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/test/fpga_example/fpga_buzzer/fpga_buzzer_driver.ko /home/test/fpga_example/fpga_buzzer/fpga_buzzer_driver.o /home/test/fpga_example/fpga_buzzer/fpga_buzzer_driver.mod.o ;  true
