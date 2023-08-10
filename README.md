@@ -1,3 +1,3 @@
-# HUINS_RASPB_EMBEDDED_LINUX
+# huins-raspb-embedded-linux
 
 ITE4067 Embedded Software Design
